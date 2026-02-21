@@ -1,6 +1,7 @@
 name: Legislative Metadata Audit
 
 on:
+  workflow_dispatch:  # <-- This is the magic line that adds the "Run" button!
   push:
     paths:
       - 'data/**/*.xml'
